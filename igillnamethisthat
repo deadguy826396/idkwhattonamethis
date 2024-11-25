@@ -1,6 +1,3 @@
---[[
-	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
-]]
 if game.ReplicatedStorage.Styles:FindFirstChild("Brawler") then
 	v = game.ReplicatedStorage.Styles["Brawler"]
 else
