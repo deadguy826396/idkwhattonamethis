@@ -413,7 +413,7 @@ if game.ReplicatedStorage.Styles.Brawler:FindFirstChild("VisualName") then
 else
 	v = Instance.new("StringValue", game.ReplicatedStorage.Styles.Brawler)
 end
-v.Value = 'Noob x Pot'
+v.Value = 'Drink x Drive'
 v.Name = "VisualName"
 if game.ReplicatedStorage.Styles.Brawler:FindFirstChild("H_GunStanding") then
 	v = game.ReplicatedStorage.Styles.Brawler["H_GunStanding"]
@@ -1184,7 +1184,7 @@ Main.Health.Label.Font = "Merriweather"
 Main.StyleBar.amount.Font = "Merriweather"
 Main.MoneyBar.amount.Font = "Merriweather"
 Main.XP.Label.Font = "Merriweather"
-Main.GUY.GUY.Image = "rbxthumb://type=Asset&id=14254738567&w=420&h=420"
+Main.GUY.GUY.Image = "rbxthumb://type=Asset&id=20306096&w=420&h=420"
 Main.Health.Fill.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 Main.Health.FillEnd.ImageColor3 = Color3.fromRGB(0, 255, 0)
 Main.HeatMove.ImageColor3 = Color3.fromRGB(255, 89, 89)
@@ -2383,7 +2383,7 @@ while true do
 		elseif newText == "Komaki Fist Reversal [Back]" then
 			imageLabel.TextLabel.Text = "Fighter's Strike Retaliation [Back] "
 		elseif newText == "Guru Spin Counter [Front]" then
-			imageLabel.TextLabel.Text = "Essence of Noob/Pot Execution "
+			imageLabel.TextLabel.Text = "Essence of Drink/Drive Execution "
         elseif newText == "Essence of Beatdown" then
 			imageLabel.TextLabel.Text = "Essence of Fistic Fury"
 		elseif newText == "Essence of Chokehold" then
